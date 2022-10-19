@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import File from './Components/File';
+import Home from './Pages/Home';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+// add this link for react-bootstrap in App.js
 
 function App() {
   return (
     <>
-      <File/>
+      <Home/>
     </>
   );
 }

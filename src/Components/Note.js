@@ -1,5 +1,5 @@
 /*
-for json server :-
+for run json server :-
 cmd :-
 
 npm install -g json-server
@@ -59,6 +59,17 @@ http://localhost:3004/users
 	you have create a new localhost server...
 
 	now you can add, delete, edit in direct file (dg.jason)
+
+*/
+
+
+//////////////
+
+/*
+
+add this link in app.js for react-bootstrap run :-
+
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 */
 
