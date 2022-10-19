@@ -6,7 +6,6 @@
       "author": "typicode"
     }
   ],
-
   "comments": [
     {
       "id": 1,
@@ -14,11 +13,9 @@
       "postId": 1
     }
   ],
-
   "profile": {
     "name": "typicode"
   },
-
   "users": [
     {
       "id": 1,
@@ -249,10 +246,18 @@
         "catchPhrase": "Centralized empowering task-force",
         "bs": "target end-to-end models"
       }
+    },
+    {
+      "name": "Aakash Shah",
+      "username": "Aakash",
+      "email": "aakash@gmail.com",
+      "address": {
+        "city": "Ahmedabad"
+      },
+      "id": 11
     }
   ],
-
-  "todos" : [
+  "todos": [
     {
       "userId": 1,
       "id": 1,
@@ -1454,8 +1459,7 @@
       "completed": false
     }
   ],
-
-  "albums" : [
+  "albums": [
     {
       "userId": 1,
       "id": 1,
@@ -1958,4 +1962,3 @@
     }
   ]
 }
-

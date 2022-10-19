@@ -16,5 +16,11 @@ const fetchData = (endpoint) => {
 //   }
 // };
 
+const addData = (endpoint, add) => {
+  return axios
+  .post(`http://localhost:3004/${endpoint}`, add)
+  .then((result) => console.log(result))
+}
 
-export default {fetchData};
+
+export default {fetchData, addData};
