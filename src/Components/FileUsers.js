@@ -61,7 +61,17 @@ function FileUsers() {
 
   };
 
-  const handleDelete = () => {};
+  // delete button
+  const handleDelete = (id) => {
+    console.log('Data is '+id);
+
+    Api.deleteData("users", id).then((result) => {
+      console.log('Result data');
+    })
+
+    let filterData = myData.filter((value) => value.id !== id);
+    setMyData(filterData);
+  };
 
   const handleEdit = () => {};
 

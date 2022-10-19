@@ -22,5 +22,13 @@ const addData = (endpoint, add) => {
   .then((result) => console.log(result))
 }
 
+const deleteData = (endpoint, id) => {
+  return axios
+    .delete(`http://localhost:3004/${endpoint}/${id}`)
+    .then((result) => {
+      return result.data;
+    });
+};
 
-export default {fetchData, addData};
+
+export default {fetchData, addData, deleteData};
